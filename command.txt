@@ -1,0 +1,14 @@
+#push first time 
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chetan-0429/demo2.git
+git push -u origin main
+
+#for updating
+
+git add .
+git commit -m "Added new feature and updated existing files"
+git push
